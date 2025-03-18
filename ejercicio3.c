@@ -1,21 +1,21 @@
 //Cruz Alegria Valeria Montserrat
 //ejercicio1
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 
-int main()
+int main ()
 {
     int  res = 0;
     int i;
     
     for(i = 0; i < 11; i++)
     (
-    res = res +i;
+        res = res +i;
     )
     printf("Solucion 1 - El numero es %d/n", res);
 
     res = 0;
-    for(i =0; i <= 10; i++)
+    for(i =1; i <= 10; i++)
     {
       res =res + i;
     }
@@ -29,7 +29,7 @@ int main()
     printf("Solucion 3 - El numero es %d/n", res);
 
     res = 0;
-    for(i =0; i <= 10; i++)
+    for(i =1; i <= 10; i++)
     {
       res =res + i;
     }
